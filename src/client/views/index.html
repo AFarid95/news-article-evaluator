@@ -10,26 +10,38 @@
 
 <body>
     <header>
-        <h1>This is a header</h1>
+        <h1>News Article Evaluator</h1>
     </header>
 
     <main>
         <section>
             <form onsubmit="return Client.handleSubmit(event)">
-                <input id="name" type="text" name="input" />
-                <input type="submit" value="submit" />
+                <label for="url">Enter the URL of the article you want to evaluate</label>
+                <input id="url" type="text" name="input" placeholder="Enter a valid URL..." onchange="Client.handleTextChange()" />
+                <input id="submitButton" type="submit" value="Evaluate" />
             </form>
         </section>
 
         <section>
-            <strong>Form Results:</strong>
+            <strong>Evaluation Results:</strong>
             <div id="results"></div>
         </section>
     </main>
 
     <footer>
-        <p>This is a footer</p>
+        <p>Ahmed Farid - Egypt FWD - Front End Web Development Advanced Nanodegree Program - Project 1 - April 2021</p>
     </footer>
+
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+
 </body>
 
 </html>
