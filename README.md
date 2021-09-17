@@ -1,4 +1,4 @@
-This is the first project in the "Front End Web Development Advanced" Nanodegree from Udacity, sponsored by the Ministry of Communications and Information Technology of Egypt. You can view my certificate [here]: https://graduation.udacity.com/confirm/DNG9L9CK.
+This is the first project in the "Front End Web Development Advanced" Nanodegree from Udacity, sponsored by the Ministry of Communications and Information Technology of Egypt. You can view my certificate [here](https://graduation.udacity.com/confirm/DNG9L9CK).
 
 # News Article Evaluator
 
@@ -10,9 +10,9 @@ The News Article Evaluator is a web tool that takes the URL of an article and pe
 
 Before proceeding, please make sure that the following tools are installed on your machine:
 
-- [Git]: https://git-scm.com/
+- [Git](https://git-scm.com/)
 
-- [Node.js]: https://nodejs.org/
+- [Node.js](https://nodejs.org/)
 
 Please follow the following steps to run the web tool on your machine:
 
