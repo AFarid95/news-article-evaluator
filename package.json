@@ -1,5 +1,5 @@
 {
-  "name": "example-project",
+  "name": "news-article-evaluator",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
