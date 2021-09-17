@@ -32,4 +32,4 @@ Run ```npm run build-prod``` in the repository's root directory to build the app
 
 Run ```npm start``` in the repository's root directory to start the application on your machine.
 
-Go to [localhost:8080](localhost:8080) to launch the application.
+Go to [localhost:8080](http://localhost:8080/) to launch the application.
